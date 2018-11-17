@@ -1,0 +1,32 @@
+// Helvetica | HelveticaNeve | Oswald --
+
+@font-face {
+  font-family: "Helvetica";
+
+  src: url('/build/fonts/Helvetica-01.eo/') format('embedded-opentype');
+  src: url('/build/fonts/Helvetica-01.woff') format('woff');
+  src: url('/build/fonts/Helvetica-01.svg') format('svg');
+  src: url("/build/fonts//Helvetica-01.ttf") format("truetype");
+
+
+
+}
+
+/* Police pour loader le Visual Communication et le Video director */
+@font-face {
+  font-family: "Oswald";
+  src: url("/build/fonts/Oswald.ttf") format("truetype");
+
+
+}
+
+@font-face {
+  font-family: "Helveticalight";
+
+  src: url('/build/fonts/HelveticaNeue-Light.eot') format('embedded-opentype');
+  src: url('/build/fonts/HelveticaNeue-Light.woff') format('woff');
+  src: url('/build/fonts/HelveticaNeue-Light.svg') format('svg');
+  src: url("/build/fonts/HelveticaNeue-Light.ttf") format("truetype");
+
+
+}

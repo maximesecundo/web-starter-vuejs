@@ -1,0 +1,66 @@
+{
+  "name": "webpackstarter",
+  "version": "1.0.0",
+  "description": "My Starter Web application using Webpack4 and gsap",
+  "keywords": [
+    "es6",
+    "express",
+    "webpack",
+    "sass",
+    "gsap",
+    "eslint"
+  ],
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js --mode=production",
+    "dev": "webpack-dev-server --open --hot --config webpack.config.dev.js --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Maxime secundo",
+    "url": "http://maximesecundo.com/",
+    "mail": "maximesecundopro@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "gsap": "^2.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-manifest-plugin": "^2.0.4"
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "g": "^2.0.1",
+    "vue": "^2.5.17"
+  }
+}

@@ -1,0 +1,36 @@
+// Font configuration
+// ------------------
+
+
+@mixin fontSmoothing() {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+// Font faces
+// ----------
+
+$fallbackFonts: Helvetica, Arial, sans-serif;
+
+@mixin font-header() {
+  font-family: 'Helvetica', $fallbackFonts;
+  font-weight: 600;
+  font-size: 2.5rem;
+  @include fontSmoothing();
+}
+
+
+@mixin font-body() {
+  font-family: 'Helveticalight', $fallbackFonts;
+  font-size: 1.5rem;
+  @include fontSmoothing();
+}
+
+
+@mixin font-different() {
+  font-family: 'Oswald', $fallbackFonts;
+  font-weight: 400;
+  font-size: 1rem;
+  @include fontSmoothing();
+}
